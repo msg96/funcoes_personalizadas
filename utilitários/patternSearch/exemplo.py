@@ -26,5 +26,6 @@ lista_Com_Pattern_do_texto_do_arquivo = patternSearch(texto_do_arquivo, pattern_
 lista_Com_Pattern_do_bytes_do_arquiv = patternSearch(bytes_do_arquivo, pattern_bytes_do_arquivo)
 lista_Com_Pattern_do_hex_do_arquivo = patternSearch(hex_do_arquivo, pattern_hex_do_arquivo)
 lista_Com_Pattern_do_bin_do_arquivo = patternSearch(bin_do_arquivo, pattern_bin_do_arquivo)
+
 ### output = {'digito onde começa no arquivo': 'pattern completa com as letras no lugar dos ? tambem'}
 ### pode retornar varias pattern dentro do dicionario, dependendo do tamanho do seu arquivo e quão menos especifica ela é
