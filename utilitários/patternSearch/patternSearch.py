@@ -2,11 +2,7 @@
 
 import os as __os
 
-####    ENCODE LIST
-
-
-
-####    PRIVATE FUNCTION
+####    FUNCAO INTERNA
 
 def __funcao_que_recebe_os_bytes_de_um_arquivo_e_o_retorna(arquivo_a_ser_lido) -> bytes:
     if not __os.path.exists(arquivo_a_ser_lido): return
@@ -67,7 +63,7 @@ def __funcao_gera_um_dicionario_de_patterns_achados(dados_a_serem_escaneados, pa
     except:
         return
 
-####    PUBLIC FUNCTION
+####    FUNCAO PUBLICA
 
 def bytesFromFile(file):
     return __funcao_que_recebe_os_bytes_de_um_arquivo_e_o_retorna(file)
